@@ -73,6 +73,9 @@ const middle1 = (request, response, next) => {
     });
   }
 };
+// {
+//   "jwkToken": "eyJhbGciOiJIUzI1NiJ9.Y2hyaXN0b3BoZXJfcGhpbGxpcHM.HUZ_attW8-TrT5O18HhLW_PjSPudgdM0irAGXwu-1Ec"
+// }
 
 //API 2
 app.get("/states/", middle1, async (request, response) => {
