@@ -1,0 +1,15 @@
+###Normal INITIALIZING
+GET http://localhost:3000/
+
+###API 1
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username": "christopher_phillips",
+  "password": "christy@123"
+}
+
+###API 2
+GET http://localhost:3000/states/
+Authorization: bearer eyJhbGciOiJIUzI1NiJ9.Y2hyaXN0b3BoZXJfcGhpbGxpcHM.HUZ_attW8-TrT5O18HhLW_PjSPudgdM0irAGXwu-1Ec
